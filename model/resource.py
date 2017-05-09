@@ -61,12 +61,12 @@ class HDDIO(Resource):
     measure = 'IOPS'
     periodical = True
 
-'''
+
 class HDD(Resource):
     name = 'HDD'
     quantum = 360000
     measure = 'MB'
-'''
+
 
 class RAM(Resource):
     name = 'RAM'

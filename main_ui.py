@@ -54,8 +54,6 @@ class Form(QWidget):
             chart.createDefaultAxes()
             self.layout.addWidget(chart_view)
 
-
-
     def start(self):
         self.message('Настройти до конца')
 
